@@ -6,7 +6,7 @@ require 'partials/nav.inc.php';
 
 <div class="container mt-5">
     <h1 class="display-4 text-center">NetUtilX - Precision Network Tools</h1>
-    <p class="lead text-center">Advanced tools designed to help you diagnose and resolve network issues effectively. Leverage the power of DNS Scanner, Ping, Traceroute, Whois, and Subdomain Scanner to maintain seamless connectivity.</p>
+    <p class="lead text-center">Advanced tools designed to help you diagnose and resolve network issues effectively. Leverage the power of DNS Scanner, Ping, Traceroute, & Whois to maintain seamless connectivity.</p>
 
     <!-- Tools Section -->
     <div class="row mt-4 text-start">

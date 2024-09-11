@@ -14,5 +14,22 @@
 <!-- Bootstrap Bundle with Popper -->
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Copy Button Functionality
+    document.getElementById('copyButton').addEventListener('click', function() {
+      var outputText = document.getElementById('console-output').innerText;
+
+      // Copy the output content to the clipboard
+      navigator.clipboard.writeText(outputText).then(function() {
+        console.log('Copied to clipboard!');
+      }).catch(function(error) {
+        console.error('Error copying to clipboard: ', error);
+      });
+    });
+  });
+</script>
+
 </body>
+
 </html>
